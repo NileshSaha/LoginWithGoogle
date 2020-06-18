@@ -37,8 +37,5 @@ class LoginServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/views' => resource_path('views/vendor')
         ]);
-        $this->publishes([
-            __DIR__.'/public/assets' => public_path('vendor/courier'),
-        ], 'public');
     }
 }
