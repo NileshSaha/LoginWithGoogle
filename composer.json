@@ -1,0 +1,26 @@
+{
+    "name": "nilesh_saha/login",
+    "description": "Asks username and password for input in command line",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NileshSaha",
+            "email": "03.nileshsaha@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NileshSaha\\Login\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NileshSaha\\Login\\LoginServiceProvider"
+            ]
+        }
+    }
+}
